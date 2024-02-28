@@ -1,0 +1,25 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      password: root
+      host: localhost
+      port: 27017
+      database: chatapp
+      authentication-database: admin
+#    hibernate.dialect: org.hibernate.dialect.MySQLDialect
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
+
+server:
+  port: 8082
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
